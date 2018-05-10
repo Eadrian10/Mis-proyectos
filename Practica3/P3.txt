@@ -1,0 +1,9 @@
+
+   84  vim
+   85  vim maximum.s
+   86  as --32 maximum.s -o maximum.o
+   87  ld -m elf_i386 maximum.o -o maximum
+   88  ls
+   89  ./maximum
+   90  echo $?
+   93  history> P3.txt

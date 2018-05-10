@@ -1,0 +1,8 @@
+
+   68  vim
+   79  vim exit.s
+   81  as --32 exit.s -o exit.o
+   82  ld -m elf_i386 exit.o -o exit
+   83  ./exit
+   84  echo $?
+   85  history> Practica2.txt

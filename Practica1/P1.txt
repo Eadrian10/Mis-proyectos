@@ -1,0 +1,42 @@
+
+   13  apt-get update
+   14  apt-get install libreoffice
+   15  $sudo apt-get install libreoffice
+   16  apt-get update
+   17  aptitude update
+   18  sudo apt-get install libreoffice
+   19  apt-get update
+   20  sudo apt autoremove
+   21  apt-get update
+   22  sudo apt-get install libreoffice
+   23  apt-get update
+   24  apt-get install libreoffice
+   25  apt-get update
+   26  apt-get install libreoffice
+   27  apt-get update
+   28  apt-get update install libreoffice
+   29  cd /etc/apt
+   30  gedit sources.list
+   31  apt-get update
+   32  apt-get install libreoffice
+   33  apt-get update
+
+/////////////////P1
+   34  vim
+   41  vim a1.s
+   46  as --32 a1.s -o a1.o
+   49  objdump -D a1.o
+   50  vim
+   51  as --32 a2.s -o a2.o
+   52  objdump -D a2.o
+   53  vim
+   54  ld a1.o a2.o -o a.out -T test.lds
+   56  ld a1.o a2.o -o a.out -T test.lds
+   57  vim test.lds
+   62  ld a1.o a2.o -o a.out -T test.lds
+   63  history> P1.txt
+
+
+
+
+
