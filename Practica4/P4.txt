@@ -1,0 +1,13 @@
+    1  clear
+    2  vim
+    4  vim power.s
+   10  vim
+   11  as --32 factorial.s -o factorial.o
+   12  ld -m elf_i386 factorial.o -o factorial
+   13  ./factorial
+   14  echo $?
+   20  as --32 power.s -o power.o
+   21  ld -m elf_i386 power.o -o power
+   22  ./power
+   23  echo $?
+   24  history> P4.txt
